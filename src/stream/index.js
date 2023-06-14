@@ -148,6 +148,7 @@ class stream {
   }
   async checkNetwork() {
     let net = await this.web3.eth.net.getNetworkType()
+    console.log(net)
     if (net !== this.network) {
       throw new Error(`Please sign into ${this.network} network`)
     }

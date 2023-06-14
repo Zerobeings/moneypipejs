@@ -148,10 +148,16 @@ class stream {
   }
   async checkNetwork() {
     let net = await this.web3.eth.net.getNetworkType()
-    console.log(net)
-    if (net !== this.network) {
+    if (net !== this.network || net !== "private") {
       throw new Error(`Please sign into ${this.network} network`)
-    }
+    } else if (net === "private") {
+      let network = await this.web3.eth.getChainId()
+      if (network === 11155111) {
+        let net = "sepolia"
+      } else {
+        throw new Error(`Please sign into ${this.network} network`)
+      }
+    } 
   }
   async current_account() {
     await this.checkNetwork()

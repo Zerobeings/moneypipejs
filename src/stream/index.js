@@ -10,7 +10,7 @@ class stream {
   //  # In the browser
   //  const stream = new Stream({
   //    web3: new Web3(window.ethereum),
-  //    network: "rinkeby",
+  //    network: "sepolia",
   //  })
   // 
   //  # Node.js

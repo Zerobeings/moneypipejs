@@ -18,7 +18,7 @@ Here are the factory contracts:
 
 - **sepolia testnet**
   - buffer2: [0x8df99b3973050dC4edc31F2317f10cf2620694ea](https://sepolia.etherscan.io/address/0x8df99b3973050dC4edc31F2317f10cf2620694ea#code)
-  - stream: [0x02565db44285c877b6b7EBC9ebbf371684183F52](https://sepolia.etherscan.io/address/0x02565db44285c877b6b7EBC9ebbf371684183F52#code)
+  - stream: [0xc46C2B26219d4224f7268d5d321483754A7f9FcF](https://sepolia.etherscan.io/address/0xc46C2B26219d4224f7268d5d321483754A7f9FcF#code)
 - **goerli testnet**
   - buffer2: [0xF1BA9c045b01402AFf7d571BF2Ff3322e1EE7972](https://goerli.etherscan.io/address/0xF1BA9c045b01402AFf7d571BF2Ff3322e1EE7972)
 - **ethereum mainnet**

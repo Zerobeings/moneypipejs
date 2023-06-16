@@ -20,7 +20,7 @@ module.exports = {
     //goerli: "0xd696adb3f1c7af701bb51c776e1b2d87e308ef5d",
     //goerli: "0x234aa2acf049ead41f1cfe90ff8656fa5f4831e2",
     //goerli: "0x6de8cf7236c162c025963f7e98a0faa320e78504"
-    sepolia: "0x699f6dB94d38cD523584c91593e033c29948f56e",
+    sepolia: "0xc2BD483866929F68c2c70440F5d26523612E3E1B",
     goerli: "0xD912512eCA388Daaaf14ee9b8cD9471a789ec66E",
     main: "0xD912512eCA388Daaaf14ee9b8cD9471a789ec66E",
     mumbai: "0xD912512eCA388Daaaf14ee9b8cD9471a789ec66E",

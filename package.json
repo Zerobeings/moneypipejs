@@ -1,6 +1,6 @@
 {
-  "name": "moneypipe",
-  "version": "0.0.52",
+  "name": "moneypipeV2",
+  "version": "0.0.53",
   "description": "",
   "main": "index.js",
   "scripts": {

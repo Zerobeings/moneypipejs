@@ -148,7 +148,7 @@ class stream {
   }
   async checkNetwork() {
     let net = await this.web3.eth.net.getNetworkType()
-    if (net !== this.network || net !== "private") {
+    if (net !== this.network && net !== "private") {
       throw new Error(`Please sign into ${this.network} network`)
     } else if (net === "private") {
       let network = await this.web3.eth.getChainId()
